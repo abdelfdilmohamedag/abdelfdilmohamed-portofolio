@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>عبد الفضيل محمد - Abdel Fdil Mohamed </title>
+    <meta name="description"
+        content="عبد الفضيل محمد - مطور واجهات أمامية، مصمم جرافيك، مونتاج فيديو، خبير ذكاء اصطناعي، إدارة سوشيال ميديا، ومؤسس منصة AFM Academic و AFM Designer." />
+    <meta name="keywords"
+        content="مطور ويب, front-end, تصميم جرافيك, مونتاج, ذكاء اصطناعي, إدارة سوشيال ميديا, AFM Academic, AFM Designer" />
+    <meta name="author" content="عبد الفضيل محمد" />
+    <link rel="canonical" href="https://afmacademic.tech" />
+    <meta property="og:title" content="عبد الفضيل محمد | مطور ويب ومتخصص خدمات رقمية" />
+    <meta property="og:description" content="بورتوفوليو احترافي مع خدمات متكاملة وآراء العملاء." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://afmacademic.tech" />
+    <meta name="theme-color" content="#42d6c5" />
+    <meta name="robots" content="index, follow" />
+    <meta name="icon" content="img/logo.png" />
+
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="icon" href="img/logo.png" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class="app-wrapper">
+        <!-- شريط التقدم -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <!-- بقعة الضوء -->
+        <div class="spotlight" id="spotlight"></div>
+        <!-- زر العودة للأعلى -->
+        <div class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></div>
+
+        <!-- القائمة العلوية -->
+        <nav class="navbar" id="navbar">
+            <div class="container nav-container">
+                <div class="logo"><a href="#home"><span><i class="fas fa-code"></i></span></a></div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#portfolio">أعمالي</a></li>
+                    <li><a href="#blog">مدونتي</a></li>
+                    <li><a href="#skills">المهارات</a></li>
+                    <li><a href="#testimonials">آراء العملاء</a></li>
+                    <li><a href="#contact">اتصل بي</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+                <div class="nav-buttons">
+                    <button class="cv-header-btn" id="cvHeaderBtn"><i class="fas fa-file-alt"></i> Download CV</button>
+                    <button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- القائمة المتنقلة -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-close" id="mobileMenuClose"><i class="fas fa-times"></i></div>
+            <a href="#home">الرئيسية</a>
+            <a href="#services">الخدمات</a>
+            <a href="#portfolio">أعمالي</a>
+            <a href="#blog">مدونتي</a>
+            <a href="#skills">المهارات</a>
+            <a href="#testimonials">آراء العملاء</a>
+            <a href="#contact">اتصل بي</a>
+        </div>
+
+        <!-- القسم الرئيسي Hero -->
+        <section class="hero" id="home">
+            <!-- خلفيات Mesh -->
+            <div class="hero-mesh">
+                <div class="mesh-blob mesh-1"></div>
+                <div class="mesh-blob mesh-2"></div>
+                <div class="mesh-blob mesh-3"></div>
+                <div class="mesh-blob mesh-4"></div>
+            </div>
+
+            <!-- طبقة Noise للعمق -->
+            <div class="hero-noise"></div>
+
+            <div class="container hero-container">
+                <!-- العمود الأيسر: النص -->
+                <div class="hero-col hero-col-text">
+                    <!-- حالة التوفر -->
+                    <div class="availability-badge" data-aos="fade-down">
+                        <span class="avail-dot"></span>
+                        <span>متاح للعمل الحر</span>
+                        <span class="avail-sep">•</span>
+                        <span class="avail-time">الرد خلال 24 ساعة</span>
+                    </div>
+
+                    <!-- العنوان الرئيسي -->
+                    <h1 class="hero-title">
+                        <span class="title-line">
+                            <span class="title-word">مرحباً،</span>
+                            <span class="title-word">أنا</span>
+                        </span>
+                        <span class="title-line title-line-accent size"> <span class="title-word">Abdel Fdil Mohamed
+                            </span>
+                        </span>
+                        <span class="title-line title-line-sub size2">
+                            <span class="title-word">مطور</span>
+                            <span class="title-word">ويب</span>
+                            <span class="title-word title-word-highlight">Front-End</span>
+                        </span>
+                    </h1>
+
+                    <!-- النص المتحرك -->
+                    <div class="hero-role">
+                        <span class="role-prefix">
+                            <i class="fas fa-angle-left"></i>
+                        </span>
+                        <span class="typing-text" id="typingText">مطور ويب Front-End<span class="cursor">|</span></span>
+                    </div>
+
+                    <!-- الوصف -->
+                    <p class="hero-desc">
+                        أقدم <strong>6 خدمات متكاملة</strong> تشمل تطوير الويب، الجرافيك، المونتاج، الذكاء الاصطناعي،
+                        اللغة الإنجليزية، وإدارة السوشيال ميديا.
+                    </p>
+
+                    <!-- الشعار الفرعي -->
+                    <div class="hero-ceo">
+                        <div class="ceo-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div class="ceo-text">
+                            <span class="ceo-label">الرئيس التنفيذي لـ</span>
+                            <strong class="ceo-name">AFM Academic</strong>
+                        </div>
+                    </div>
+
+                    <!-- الأزرار -->
+                    <div class="hero-actions">
+                        <button class="action-btn action-btn-primary"
+                            onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+                            <span class="action-btn-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <span class="action-btn-text">تواصل معي</span>
+                            <span class="action-btn-arrow"><i class="fas fa-arrow-left"></i></span>
+                        </button>
+                        <button class="action-btn action-btn-ghost"
+                            onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+                            <span class="action-btn-text">استعرض خدماتي</span>
+                            <i class="fas fa-cogs"></i>
+                        </button>
+                        <button class="action-btn action-btn-accent" id="requestServiceBtn">
+                            <i class="fas fa-handshake"></i>
+                            <span>طلب خدمة</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- العمود الأيمن: الصورة والمهارات -->
+                <div class="hero-col hero-col-visual">
+                    <!-- خط الفصل المتوهج -->
+                    <div class="hero-divider"></div>
+
+                    <div class="visual-stage" data-aos="zoom-in" data-aos-delay="200">
+                        <!-- حلقات دوارة -->
+                        <div class="stage-ring stage-ring-1"></div>
+                        <div class="stage-ring stage-ring-2"></div>
+                        <div class="stage-ring stage-ring-3"></div>
+
+                        <!-- توهج خلفي -->
+                        <div class="stage-aura"></div>
+
+                        <!-- بطاقة الصورة الزجاجية -->
+                        <div class="avatar-card">
+                            <div class="avatar-card-glow"></div>
+                            <div class="avatar-card-inner">
+                                <img src="img/logo.png" alt="عبد الفضيل محمد" class="avatar-img" loading="lazy" />
+                            </div>
+                            <!-- زوايا مزخرفة -->
+                            <span class="corner corner-tl"></span>
+                            <span class="corner corner-tr"></span>
+                            <span class="corner corner-bl"></span>
+                            <span class="corner corner-br"></span>
+                        </div>
+
+
+
+                        <!-- شارات عائمة -->
+                        <div class="float-chip chip-code">
+                            <i class="fas fa-code"></i>
+                            <span>Front-End</span>
+                        </div>
+                        <div class="float-chip chip-ai">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Expert</span>
+                        </div>
+                        <div class="float-chip chip-design">
+                            <i class="fas fa-palette"></i>
+                            <span>Designer</span>
+                        </div>
+                        <div class="float-chip chip-video">
+                            <i class="fas fa-film"></i>
+                            <span>Editor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- شريط الخدمات المتحرك -->
+            <div class="hero-marquee">
+                <div class="marquee-track">
+                    <span class="marquee-item"><i class="fas fa-code"></i> تطوير ويب</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-paint-brush"></i> تصميم جرافيك</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-film"></i> مونتاج فيديو</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-robot"></i> ذكاء اصطناعي</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-language"></i> اللغة الإنجليزية</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-hashtag"></i> سوشيال ميديا</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-bullhorn"></i> حملات إعلانية</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-lightbulb"></i> استشارات</span>
+                    <span class="marquee-dot">◆</span>
+                    <!-- تكرار للتشغيل المستمر -->
+                    <span class="marquee-item"><i class="fas fa-code"></i> تطوير ويب</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-paint-brush"></i> تصميم جرافيك</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-film"></i> مونتاج فيديو</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-robot"></i> ذكاء اصطناعي</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-language"></i> اللغة الإنجليزية</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-hashtag"></i> سوشيال ميديا</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-bullhorn"></i> حملات إعلانية</span>
+                    <span class="marquee-dot">◆</span>
+                    <span class="marquee-item"><i class="fas fa-lightbulb"></i> استشارات</span>
+                    <span class="marquee-dot">◆</span>
+
+                </div>
+            </div>
+
+            <!-- مؤشر التمرير -->
+            <div class="scroll-cue">
+                <div class="scroll-cue-track">
+                    <div class="scroll-cue-dot" id="scrollFill"></div>
+                </div>
+                <span class="scroll-cue-text">SCROLL</span>
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- قسم About - من أنا -->
+        <!-- ============================================================ -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">من نحن</h2>
+
+                <div class="about-wrapper">
+                    <div class="about-visual" data-aos="fade-left">
+                        <div class="about-image-wrapper">
+                            <div class="about-glow"></div>
+                            <div class="about-ring"></div>
+                            <img src="img/About.jpg" alt="عبد الفضيل محمد" class="about-image" loading="lazy" />
+                            <div class="about-badge-floating about-badge-1">
+                                <i class="fas fa-code"></i> Front-End
+                            </div>
+                            <div class="about-badge-floating about-badge-2">
+                                <i class="fas fa-paint-brush"></i> Designer
+                            </div>
+                            <div class="about-badge-floating about-badge-3">
+                                <i class="fas fa-robot"></i> AI Expert
+                            </div>
+                        </div>
+
+                        <div class="about-stats-mini">
+                            <div class="about-stat-item">
+                                <span class="about-stat-number" data-target="3">0</span>
+                                <span class="about-stat-label">سنوات خبرة</span>
+                            </div>
+                            <div class="about-stat-item">
+                                <span class="about-stat-number" data-target="20">0</span>
+                                <span class="about-stat-label">مشروع</span>
+                            </div>
+                            <div class="about-stat-item">
+                                <span class="about-stat-number" data-target="6">0</span>
+                                <span class="about-stat-label">خدمات</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content" data-aos="fade-right">
+                        <div class="about-badge">
+                            <i class="fas fa-user-astronaut"></i>
+                            <span>شغوف • مبدع • متعدد المهارات</span>
+                        </div>
+
+                        <h3 class="about-heading">
+                            مرحباً، أنا <span class="highlight">عبد الفضيل محمد</span>
+                        </h3>
+
+                        <p class="about-text">
+                            طالب في تخصص <strong>BIS</strong> (نظم المعلومات الإدارية)، شغوف جداً بمجالات متعددة وخبرة
+                            فيها. أول مجال بدأت فيه هو <strong>تطوير الويب (Front-End)</strong>، وبعد ذلك أصبحت
+                            <strong>مصمم جرافيك</strong>، وبدأ المجال يفتح أمامي فحبيت أنطلق وأوسع في خبراتي.
+                        </p>
+
+                        <p class="about-text">
+                            بدأت أعمل <strong>مونتير فيديو</strong> وتطورت فيه جداً، وبدأ شغفي يزداد أكثر، ثم دخلت مجال
+                            <strong>السوشيال ميديا</strong> و<strong>الإعلانات</strong>، والكثير من المهارات التي بدأت
+                            أتطور بها حتى أصبحت اليوم مبتكراً رقمياً شاملاً.
+                        </p>
+
+                        <div class="about-tags">
+                            <span class="about-tag"><i class="fas fa-code"></i> تطوير ويب</span>
+                            <span class="about-tag"><i class="fas fa-paint-brush"></i> تصميم جرافيك</span>
+                            <span class="about-tag"><i class="fas fa-film"></i> مونتاج فيديو</span>
+                            <span class="about-tag"><i class="fas fa-robot"></i> ذكاء اصطناعي</span>
+                            <span class="about-tag"><i class="fas fa-hashtag"></i> سوشيال ميديا</span>
+                            <span class="about-tag"><i class="fas fa-bullhorn"></i> إعلانات</span>
+                        </div>
+
+                        <div class="about-actions">
+                            <button class="action-btn action-btn-primary"
+                                onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+                                <i class="fas fa-paper-plane"></i> تواصل معي
+                            </button>
+                            <button class="action-btn action-btn-ghost"
+                                onclick="document.getElementById('portfolio').scrollIntoView({behavior:'smooth'})">
+                                <i class="fas fa-briefcase"></i> شاهد أعمالي
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- الخدمات -->
+        <!-- ============================================================ -->
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">أحدث الخدمات</h2>
+                <div class="services-grid" id="servicesGrid">
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-code"></i></div>
+                        <h3>  انشاء موقع شخصي & Portofolio</h3>
+                        <p style="color:var(--text-secondary)">HTML , CSS , JS ,REACT مواقع فائقة السرعة والأداء.
+                        </p>
+                        <button class="request-btn" data-service=" انشاء موقع شخصي & Portofolio"><i
+                                class="fas fa-paper-plane"></i> طلب الخدمة</button>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-palette"></i></div>
+                        <h3>تصميم جرافيك</h3>
+                        <p style="color:var(--text-secondary)">هويات تجارية، تصاميم سوشيال ميديا، واجهات UI/UX إبداعية.
+                        </p>
+                        <button class="request-btn" data-service="تصميم جرافيك"><i class="fas fa-paper-plane"></i> طلب
+                            الخدمة</button>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-film"></i></div>
+                        <h3>مونتاج فيديو</h3>
+                        <p style="color:var(--text-secondary)">مونتاج احترافي، موشن جرافيك، إنتاج فيديوهات تسويقية.</p>
+                        <button class="request-btn" data-service="مونتاج فيديو"><i class="fas fa-paper-plane"></i> طلب
+                            الخدمة</button>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-microchip"></i></div>
+                        <h3>الذكاء الاصطناعي</h3>
+                        <p style="color:var(--text-secondary)">دمج حلول AI، روبوتات محادثة، أتمتة وتحليل بيانات.</p>
+                        <button class="request-btn" data-service="الذكاء الاصطناعي"><i class="fas fa-paper-plane"></i>
+                            طلب الخدمة</button>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-language"></i></div>
+                        <h3>اللغة الإنجليزية <span class="soon">& قريبا </span> </h3>
+                        <p style="color:var(--text-secondary)">تأسيس، محادثة، IELTS – تدريب معتمد بمناهج حديثة وفعالة.
+                        </p>
+                        <button class="request-btn" data-service="اللغة الإنجليزية"><i class="fas fa-paper-plane"></i>
+                            طلب الخدمة</button>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-hashtag"></i></div>
+                        <h3>إدارة السوشيال ميديا</h3>
+                        <p style="color:var(--text-secondary)">إدارة كاملة للحسابات، إنشاء محتوى، تسويق، وإدارة الصفحات
+                            باحترافية.</p>
+                        <button class="request-btn" data-service="إدارة السوشيال ميديا"><i
+                                class="fas fa-paper-plane"></i> طلب الخدمة</button>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+                        <h3>إدارة حملات اعلانية</h3>
+                        <p style="color:var(--text-secondary)">إدارة حملات اعلانيه شاملة فيسبوك وتيك توك وانستقرام </p>
+                        <button class="request-btn" data-service="إدارة حملات اعلانية"><i
+                                class="fas fa-paper-plane"></i> طلب الخدمة</button>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-user-friends"></i></div>
+                        <h3>تقديم علي استشارة</h3>
+                        <p style="color:var(--text-secondary)">عمل استشارة كامله لمشروعك او البرند الخاص بيك ووضع
+                            استراتيجيات لمشروعك وتحسين الأداء في المشروع او البراند</p>
+                        <button class="request-btn" data-service="تقديم علي استشارة"><i class="fas fa-paper-plane"></i>
+                            طلب الخدمة</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- معرض الأعمال -->
+        <!-- ============================================================ -->
+        <section id="portfolio" style="background:var(--gradient-hero)">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">معرض <span style="color:var(--accent)">أعمالي</span></h2>
+                <div class="filter-buttons" id="filterButtons">
+                    <button class="filter-btn" data-category="تصميم جرافيك"> <i class="fas fa-paint-brush"></i> تصميم جرافيك   ( 6+ ) </button>
+                    <button class="filter-btn" data-category="مونتاج فيديو"> <i class="fas fa-video"></i> مونتاج فيديو ( 3+ ) </button>
+                    <button class="filter-btn" data-category="تطوير ويب"> <i class="fas fa-laptop"></i> مشاريع ويب & قوالب للبيع  ( 3+ )</button>
+                </div>
+                <div class="portfolio-grid" id="portfolioGrid">
+                    <!-- مشاريع الجرافيك -- -->
+                    <!-- 1 -->
+                    <div class="portfolio-card" data-category="تصميم جرافيك" data-title="هويه بصرية كامله لحمايه العين"
+                        data-desc="هويه بصرية كامله لدكتور عيون لحمايه العين من النظر في الهاتف"
+                        data-link="https://www.behance.net/gallery/255176401/_" data-img="work/Graphic/1.png"
+                        data-date="2026-01-15">
+                        <div class="portfolio-img" style="background-image:url('work/Graphic/1.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://www.behance.net/gallery/255176401/_"
+                                data-share-title="هويه بصرية كامله لحمايه العين" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تصميم جرافيك</span></div>
+                            <h3>هويه بصرية كامله لحمايه العين</h3>
+                            <p>هويه بصرية كامله لدكتور عيون لحمايه العين من النظر في الهاتف</p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="portfolio-card" data-category="تصميم جرافيك" data-title="هويه بصريه كامله لبراند coffee"
+                        data-desc=" هويه بصرية ممتازه جدا لبراند coffee "
+                        data-link="https://www.behance.net/gallery/252359945/-coffee" data-img="work/Graphic/2.png"
+                        data-date="2026-01-12">
+                        <div class="portfolio-img" style="background-image:url('work/Graphic/2.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://www.behance.net/gallery/252359945/-coffee"
+                                data-share-title="هويه بصريه كامله لبراند coffee" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تصميم جرافيك</span></div>
+                            <h3>هويه بصريه كامله لبراند coffee</h3>
+                            <p> هويه بصرية ممتازه جدا لبراند coffee </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="portfolio-card" data-category="تصميم جرافيك"
+                        data-title=" تصميم هويه بصريه احترافيه لمنتج مياه هلل " data-desc=" هويه بصريه لمنتج مياه هلل "
+                        data-link="https://www.behance.net/gallery/252113359/_" data-img="work/Graphic/3.png"
+                        data-date="2026-01-10">
+                        <div class="portfolio-img" style="background-image:url('work/Graphic/3.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://www.behance.net/gallery/252113359/_"
+                                data-share-title="تصميم هويه بصريه احترافيه لمنتج مياه هلل" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تصميم جرافيك</span></div>
+                            <h3>هويه بصريه كامله لمنتج مياه هلل</h3>
+                            <p> هويه بصرية ممتازه جدا لمنتج مياه هلل </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="portfolio-card" data-category="تصميم جرافيك"
+                        data-title=" تصميم هويه كامله لشركه جرين لايف GL "
+                        data-desc=" هويه متكامله بدايه من انشاء الشعار وحتى المواد التسويقيه "
+                        data-link="https://www.behance.net/gallery/252231711/-GL" data-img="work/Graphic/4.png"
+                        data-date="2026-01-08">
+                        <div class="portfolio-img" style="background-image:url('work/Graphic/4.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://www.behance.net/gallery/252231711/-GL"
+                                data-share-title="تصميم هويه كامله لشركه جرين لايف GL" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تصميم جرافيك</span></div>
+                            <h3>هويه بصريه كامله لشركه جرين لايف GL</h3>
+                            <p> هويه متكامله بدايه من انشاء الشعار وحتى المواد التسويقيه </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="portfolio-card" data-category="تصميم جرافيك"
+                        data-title=" هوية بصرية لمشروع حمايه الاسنان "
+                        data-desc=" مشروع لحمايه الاسنان من التسوس والحفاظ عليها "
+                        data-link="https://www.behance.net/gallery/249810581/DENTAL-DESIGNE"
+                        data-img="work/Graphic/5.png" data-date="2026-01-05">
+                        <div class="portfolio-img" style="background-image:url('work/Graphic/5.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://www.behance.net/gallery/249810581/DENTAL-DESIGNE"
+                                data-share-title="هوية بصرية لمشروع حمايه الاسنان" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تصميم جرافيك</span></div>
+                            <h3>هويه بصريه كامله لمشروع حمايه الاسنان</h3>
+                            <p> مشروع لحمايه الاسنان من التسوس والحفاظ عليها </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="portfolio-card" data-category="تصميم جرافيك" data-title=" تصميم بوستر لعطر TOM FORD "
+                        data-desc=" بوستر احترافي لعطر TOM FORD يليق بالعطر "
+                        data-link="https://www.behance.net/gallery/252023065/-TOM-FORD" data-img="work/Graphic/6.png"
+                        data-date="2026-01-03">
+                        <div class="portfolio-img" style="background-image:url('work/Graphic/6.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://www.behance.net/gallery/252023065/-TOM-FORD"
+                                data-share-title="تصميم بوستر لعطر TOM FORD" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تصميم جرافيك</span></div>
+                            <h3>هويه بصريه كامله لمشروع حمايه الاسنان</h3>
+                            <p> مشروع لحمايه الاسنان من التسوس والحفاظ عليها </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+
+                    <!-- مشاريع المونتاج -->
+                    <!-- 1 -->
+                    <div class="portfolio-card" data-category="مونتاج فيديو" data-title=" مونتاج فيديو لشركه بلان بي "
+                        data-desc=" مونتاج فيديو لشركه بلان بي للتعرف علي الكورسات الموجوده في الشركة "
+                        data-link="https://drive.google.com/file/d/1FpD-g6aE1MEzjSxQPB4DzzFvCh28Br3p/view?usp=drive_link"
+                        data-img="work/Video/1.png" data-date="2026-02-20">
+                        <div class="portfolio-img" style="background-image:url('work/Video/1.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://drive.google.com/file/d/1FpD-g6aE1MEzjSxQPB4DzzFvCh28Br3p/view?usp=drive_link"
+                                data-share-title="مونتاج فيديو لشركه بلان بي" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>مونتاج فيديو</span></div>
+                            <h3> مونتاج فيديو لشركه بلان بي </h3>
+                            <p> مونتاج فيديو لشركه بلان بي للتعرف علي الكورسات الموجوده في الشركة </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="portfolio-card" data-category="مونتاج فيديو" data-title=" مونتاج فيديو لصانع محتوي "
+                        data-desc="مونتاج فيديو لصانع محتوي يتكلم فيه عن الذكاء الاصطناعي"
+                        data-link="https://drive.google.com/file/d/1G56KM38Z4Bctept5smHy82cTbuMJMfoi/view?usp=drive_link"
+                        data-img="work/Video/2.png" data-date="2026-02-18">
+                        <div class="portfolio-img" style="background-image:url('work/Video/2.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://drive.google.com/file/d/1G56KM38Z4Bctept5smHy82cTbuMJMfoi/view?usp=drive_link"
+                                data-share-title="مونتاج فيديو لصانع محتوي" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>مونتاج فيديو</span></div>
+                            <h3> مونتاج فيديو لصانع محتوي </h3>
+                            <p> مونتاج فيديو لصانع محتوي يتكلم فيه عن الذكاء الاصطناعي </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="portfolio-card" data-category="مونتاج فيديو" data-title=" مونتاج فيديو ديني "
+                        data-desc=" مونتاج فيديو ديني يتكلم عن معرفه الحقوق والحدود في الدين الاسلامي "
+                        data-link="https://drive.google.com/file/d/1xVu581Uf3YHPlrAFVI_Ns3kS3Y6MlEYU/view?usp=drive_link"
+                        data-img="work/Video/3.png" data-date="2026-02-15">
+                        <div class="portfolio-img" style="background-image:url('work/Video/3.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://drive.google.com/file/d/1xVu581Uf3YHPlrAFVI_Ns3kS3Y6MlEYU/view?usp=drive_link"
+                                data-share-title="مونتاج فيديو ديني" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>مونتاج فيديو</span></div>
+                            <h3> مونتاج فيديو ديني </h3>
+                            <p> مونتاج فيديو ديني يتكلم عن معرفه الحقوق والحدود في الدين الاسلامي </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 8-9-2026</span>
+                        </div>
+                    </div>
+
+                    <!-- مشاريع الويب -->
+                    <!-- 1 -->
+                    <div class="portfolio-card" data-category="تطوير ويب"
+                        data-title="    قوالب مواقع شخصية تعرض فيها اعمالك لو انت صانع محتوي وبتقدم خدمه معروضه للبيع "
+                        data-desc=" قوالب جاهزه للتعديل فورا لو انت صاحب براند او صانع محتوي عايز تقدم خدمتك او لو انت محل ملابس وكثر من القوالب موجوده ومعروضه للبيع "
+                        data-link="https://wa.me/201006153136?text=مرحباً، أود اعرف اكثر عن قوالب المواقع بالتفصيل "
+                        data-img="work/web/3.png" data-date="2026-9-11">
+                        <div class="portfolio-img" style="background-image:url('work/web/3.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://wa.me/201006153136?text=مرحباً، أود اعرف اكثر عن قوالب المواقع بالتفصيل "
+                                data-share-title=" قوالب جاهزه للتعديل فورا لو انت صاحب براند او صانع محتوي عايز تقدم خدمتك او لو انت محل ملابس وكثر من القوالب موجوده ومعروضه للبيع "
+                                aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>قوالب للبيع</span></div>
+                            <h3>قوالب مواقع شخصية تعرض فيها اعمالك لو انت صانع محتوي وبتقدم خدمه معروضه للبيع </h3>
+                            <p> قوالب جاهزه للتعديل فورا لو انت صاحب براند او صانع محتوي عايز تقدم خدمتك او لو انت محل
+                                ملابس وكثر من القوالب موجوده ومعروضه للبيع </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 11-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="portfolio-card" data-category="تطوير ويب"
+                        data-title=" portofolio /موقع احترافي يعبر عنك وعن خدماتك التي تقدمها باحترافيه "
+                        data-desc=" موقع احترافي يعبر عنك وعن خدماتك التي تقدمها باحترافيه  وقابل للتطوير "
+                        data-link="https://abdelfdilmohamedag.github.io/AFM1/" data-img="work/web/2.png"
+                        data-date="2026-9-9">
+                        <div class="portfolio-img" style="background-image:url('work/web/2.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://abdelfdilmohamedag.github.io/AFM1/"
+                                data-share-title="موقع لعرض مشاريعك في شكل بسيط" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تطوير ويب</span></div>
+                            <h3> portofolio /موقع احترافي يعبر عنك وعن خدماتك التي تقدمها باحترافيه </h3>
+                            <p> موقع احترافي يعبر عنك وعن خدماتك التي تقدمها باحترافيه وقابل للتطوير </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 10-9-2026</span>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="portfolio-card" data-category="تطوير ويب" data-title=" موقع لعرض مشاريعك في شكل بسيط"
+                        data-desc=" موقع لعرض مشاريعك في شكل بسيط وسهل الاستخدام "
+                        data-link="https://abdelfdilmohamedag.github.io/AFM2/" data-img="work/web/1.png"
+                        data-date="2026-02-20">
+                        <div class="portfolio-img" style="background-image:url('work/web/1.png')">
+                            <div class="portfolio-overlay"><span class="view-project"><i class="fas fa-eye"></i> عرض
+                                    التفاصيل</span></div>
+                            <button class="portfolio-share-btn"
+                                data-share-link="https://abdelfdilmohamedag.github.io/AFM2/"
+                                data-share-title="موقع لعرض مشاريعك في شكل بسيط" aria-label="مشاركة المشروع">
+                                <i class="fas fa-share-alt"></i>
+                            </button>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-tags"><span>تطوير ويب</span></div>
+                            <h3> موقع لعرض مشاريعك في شكل بسيط</h3>
+                            <p> موقع لعرض مشاريعك في شكل بسيط وسهل الاستخدام </p>
+                            <span class="portfolio-date"><i class="fas fa-calendar"></i> 10-9-2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:2.5rem" id="loadMoreContainer">
+                    <button class="load-more-btn" id="loadMoreBtn"><i class="fas fa-plus"></i> عرض المزيد من
+                        المشاريع</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- المدونة -->
+        <section id="blog">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">أحدث المقالات</h2>
+                <div class="blog-grid" id="blogGrid">
+                    <!-- سيتم ملؤها بـ JS من Blogger API -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- قسم المهارات - لغاتي وتقنياتي -->
+        <!-- ============================================================ -->
+        <section id="skills" class="skills-section">
+            <div class="skills-bg-glow"></div>
+
+            <div class="container">
+                <!-- رأس القسم -->
+                <div class="skills-header" data-aos="fade-up">
+                    <span class="skills-badge">
+                        <i class="fas fa-layer-group"></i>
+                        المهارات والتقنيات
+                    </span>
+                    <h2 class="section-title skills-title">مهاراتي و تقنياتي الإبداعية</h2>
+                    <p class="skills-subtitle">
+                        مجموعة الأدوات التي أستخدمها لبناء تجارب رقمية استثنائية
+                    </p>
+                </div>
+
+                <!-- أزرار التصفية -->
+                <div class="skill-filter-buttons" data-aos="fade-up" data-aos-delay="100">
+                    <button class="skill-filter-btn" data-filter="frontend">
+                        <i class="fas fa-code"></i>
+                        <span>اللغات</span>
+                        <span class="filter-count">5+</span>
+                    </button>
+                    <button class="skill-filter-btn" data-filter="design">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>مهارات الإبداع</span>
+                        <span class="filter-count">5+</span>
+                    </button>
+                    <button class="skill-filter-btn" data-filter="ai">
+                        <i class="fas fa-robot"></i>
+                        <span>الذكاء الاصطناعي</span>
+                        <span class="filter-count">2+</span>
+                    </button>
+                    <button class="skill-filter-btn" data-filter="tools">
+                        <i class="fas fa-tools"></i>
+                        <span>أدوات وتقنيات</span>
+                        <span class="filter-count">4+</span>
+                    </button>
+                </div>
+
+                <!-- شبكة المهارات -->
+                <div class="skills-pro-grid" id="skillsGrid"></div>
+
+                <!-- زر عرض المزيد (خاص بالمهارات فقط) -->
+                <div class="skills-show-more-wrapper" id="skillsShowMoreWrapper" style="display:none">
+                    <button class="skills-show-more-btn" id="skillsShowMoreBtn">
+                        <span>عرض المزيد</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- آراء العملاء -->
+        <!-- ============================================================ -->
+        <section id="testimonials" style="background:var(--gradient-hero)">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">آراء العملاء</h2>
+
+                <div class="testimonials-grid" id="testimonialsGrid"></div>
+
+                <!-- ✅ زر عرض المزيد من الآراء -->
+                <div class="show-more-wrapper" id="showMoreWrapper" style="display:none">
+                    <button class="show-more-btn" id="showMoreBtn">
+                        <span>عرض المزيد من الآراء</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div style="text-align:center;margin-top:2rem">
+                    <button class="add-review-btn" id="addReviewBtn">
+                        <i class="fas fa-comment-dots"></i> أضف رأيك
+                    </button>
+                </div>
+
+                <!-- نموذج إضافة الرأي -->
+                <div class="review-form" id="reviewForm" style="display:none">
+                    <h3><i class="fas fa-comment-dots"></i> شاركنا تجربتك</h3>
+                    <div class="form-row">
+                        <input type="text" placeholder="الاسم الكامل" id="reviewName" />
+                        <input type="text" placeholder="المسمى الوظيفي" id="reviewRole" value="عميل" />
+                    </div>
+                    <div class="star-rating" id="starRating">
+                        <i class="fas fa-star" data-star="1"></i>
+                        <i class="fas fa-star" data-star="2"></i>
+                        <i class="fas fa-star" data-star="3"></i>
+                        <i class="fas fa-star" data-star="4"></i>
+                        <i class="fas fa-star active" data-star="5"></i>
+                    </div>
+                    <textarea rows="4" placeholder="اكتب رأيك هنا..." id="reviewText"></textarea>
+                    <div style="display:flex;gap:1rem;justify-content:center;margin-top:0.5rem">
+                        <button class="action-btn action-btn-primary" id="submitReviewBtn">
+                            <i class="fas fa-paper-plane"></i> نشر الرأي
+                        </button>
+                        <button class="action-btn action-btn-ghost" id="cancelReviewBtn">
+                            <i class="fas fa-times"></i> إلغاء
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- التعاون والمشاريع -->
+        <section style="background:var(--gradient-hero)">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">التعاون والمشاريع</h2>
+                <div class="collab-section" data-aos="fade-up">
+                    <div class="collab-grid">
+                        <div class="collab-item"><i class="fas fa-clock"></i>
+                            <h3>تسليم في الوقت المحدد</h3>
+                            <p>التزام دقيق بالجداول الزمنية</p>
+                        </div>
+                        <div class="collab-item"><i class="fas fa-chart-line"></i>
+                            <h3>تحسين الأداء</h3>
+                            <p>نسبة نجاح 99% في المشاريع</p>
+                        </div>
+                        <div class="collab-item"><i class="fas fa-headset"></i>
+                            <h3>دعم فني 24/7</h3>
+                            <p>متابعة مستمرة بعد التسليم</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- منصة AFM Academic -->
+        <section id="platform">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">منصتي التعليمية <span style="color:var(--accent)">AFM
+                        Academic</span></h2>
+                <div class="platform-card" data-aos="zoom-in-up">
+                    <i class="fas fa-graduation-cap"
+                        style="font-size:3.5rem;color:var(--accent);margin-bottom:1rem"></i>
+                    <h3 style="font-size:2rem">AFM Academic</h3>
+                    <p style="margin:1rem 0">منصة تعليمية رائدة تقدم كورسات في تطوير الويب، التصميم، المونتاج، الذكاء
+                        الاصطناعي واللغة الإنجليزية وإدارة السوشيال ميديا. شهادات معتمدة ومحتوى تفاعلي.</p>
+                    <div class="btn-group" style="justify-content:center">
+                        <span class="btn"><i class="fas fa-play-circle"></i> استكشف الكورسات</span>
+                        <button class="action-btn action-btn-ghost" id="registerBtn"><i class="fas fa-user-plus"></i>
+                            تسجيل كا طالب & معلم</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- مودال استكشاف الكورسات -->
+        <div class="modal-overlay" id="coursesModal" style="display:none">
+            <div class="modal-content courses-modal">
+                <button class="courses-modal-close" onclick="closeCoursesModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="courses-modal-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <h3 class="courses-modal-title">📚 الكورسات التعليمية قريباً!</h3>
+
+                <p class="courses-modal-text">
+                    🎯 <strong>نحن نعمل على تجهيز محتوى تعليمي مميز ومتكامل</strong> يناسب جميع المستويات.
+                    <br><br>
+                    📖 سيتم عرض الكورسات التعليمية قريباً على منصة <strong>AFM Academic</strong>.
+                    <br><br>
+                    🔔 <strong>تابعنا أول بأول</strong> لتعرف كل جديد عن الكورسات والمواعيد.
+                </p>
+
+                <div class="courses-modal-divider"></div>
+
+                <a href="https://www.facebook.com/share/1C6JCHN9mM/" target="_blank" rel="noopener noreferrer"
+                    class="courses-modal-btn">
+                    <i class="fab fa-facebook-f"></i> تابع منصتنا عبر الفيسبوك
+                </a>
+
+                <button class="courses-modal-btn-close" onclick="closeCoursesModal()">
+                    <i class="fas fa-times"></i> إغلاق
+                </button>
+            </div>
+        </div>
+
+        <!-- الحسابات الشخصية -->
+        <section style="background:var(--gradient-hero)">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">فروع AFM Academic</h2>
+                <div class="social-accounts-grid">
+                    <div class="account-card" data-aos="fade-up">
+
+                        <div class="account-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="account-title">AFMVE <span class="soon">& قريبا </span></div>
+                        <p class="account-desc">AFMVE هو أحد الفروع المتخصصة التابعة لـ AFM Academic، ويختص بمجال
+                            المونتاج وصناعة المحتوى المرئي، من خلال تقديم حلول إبداعية لتحرير الفيديو، وإضافة المؤثرات
+                            البصرية، وتحسين الصوت والصورة، وإنتاج محتوى احترافي يجمع بين الجودة والإبداع والهوية البصرية
+                            المميزة.</p>
+                        <a href="https://www.facebook.com/share/1C6JCHN9mM/" target="_blank" rel="noopener noreferrer"
+                            class="account-btn">زيارة المنصة <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="account-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="account-icon"><i class="fas fa-paint-brush"></i></div>
+                        <div class="account-title">AFM Designer</div>
+                        <p class="account-desc">AFM Designer هو أحد الفروع الإبداعية التابعة لـ AFM Academic، والمتخصص
+                            في التصميم الجرافيكي والهوية البصرية. يركز الفرع على تحويل الأفكار إلى تصاميم احترافية
+                            ومميزة، تشمل تصميم الشعارات، الهوية البصرية، المنشورات الإعلانية، البوسترات، الصور المصغرة،
+                            وتصاميم المحتوى الرقمي.</p>
+                        <a href="https://www.facebook.com/share/18DNUvh4dJ/" target="_blank" rel="noopener noreferrer"
+                            class="account-btn">تصفح الأعمال <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- اتصل بي -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">تواصل معي</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-card" data-aos="fade-left">
+                        <h3><i class="fas fa-paper-plane"></i> أرسل رسالة</h3>
+                        <form id="contactForm">
+                            <div class="form-group" id="contactNameGroup">
+                                <label>الاسم الكامل</label>
+                                <input type="text" name="name" id="contactName" placeholder="أدخل اسمك" />
+                                <div class="error-msg">الاسم مطلوب</div>
+                            </div>
+                            <div class="form-group" id="contactEmailGroup">
+                                <label>البريد الإلكتروني</label>
+                                <input type="email" name="email" id="contactEmail" placeholder="example@mail.com" />
+                                <div class="error-msg">بريد غير صحيح</div>
+                            </div>
+                            <div class="form-group" id="contactPhoneGroup">
+                                <label>رقم الهاتف</label>
+                                <input type="tel" name="phone" id="contactPhone" placeholder="012********" />
+                                <div class="error-msg">رقم الهاتف يجب أن يكون 11 رقمًا</div>
+                            </div>
+                            <div class="form-group" id="contactMessageGroup">
+                                <label>الرسالة</label>
+                                <textarea name="message" id="contactMessage" rows="4"
+                                    placeholder="اكتب رسالتك هنا..."></textarea>
+                                <div class="error-msg">الرسالة مطلوبة</div>
+                            </div>
+                            <button type="submit" class="action-btn action-btn-primary" style="width:100%"><i
+                                    class="fas fa-paper-plane"></i>
+                                إرسال</button>
+                        </form>
+                        <div style="margin-top:1.5rem">
+                            <div class="contact-item2">
+                                <div class="contact-icon"><i class="fas fa-quran"></i></div>
+                                <div><strong>اتقو يوما ترجعون فية الي اللة , </strong><strong>( قل أعوذب برب الفلق
+                                        )</strong> </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div><strong>العنوان:</strong> الكريمات , مركز اطفيح , محافظه الجيزة</div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/1HbmshYgMp/" target="_blank" aria-label="فيسبوك"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/abdel-fdil-mohamed-8847792b9?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                                target="_blank" aria-label="لينكد إن"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/abdelfdilmohamedag" target="_blank" aria-label="جيت هاب"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/abdo_gizawy_?stkn=NTY4ZjVrcWF2eWM=" target="_blank"
+                                aria-label="انستغرام"><i class="fab fa-instagram"></i></a>
+                            <a href="https://youtube.com/@afm_academic?si=2eTkXvxbiDe2mWOc" target="_blank"
+                                aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.behance.net/abdelfdilmohamed" target="_blank" aria-label="بيهانس"><i
+                                    class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-card" data-aos="fade-right">
+                        <h3><i class="fas fa-chart-simple"></i> إحصائيات سريعة</h3>
+                        <div class="stats-box"
+                            style="background:var(--bg-card);border-radius:32px;padding:1rem;margin-top:1rem">
+                            <div class="stats-flex"
+                                style="display:flex;justify-content:space-around;flex-wrap:wrap;gap:1rem">
+                                <div class="stat-badge">
+                                    <div class="num" style="font-size:2rem;font-weight:800;color:var(--accent)">6+</div>
+                                    <div class="label">خدمات</div>
+                                </div>
+                                <div class="stat-badge">
+                                    <div class="num" style="font-size:2rem;font-weight:800;color:var(--accent)">20+
+                                    </div>
+                                    <div class="label">مشاريع</div>
+                                </div>
+                                <div class="stat-badge">
+                                    <div class="num" style="font-size:2rem;font-weight:800;color:var(--accent)">99%
+                                    </div>
+                                    <div class="label">رضا العملاء</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="availability-badge" data-aos="fade-down">
+
+
+                            <span class="avail-dot"></span>
+                           
+                            <span class="avail-sep">•</span>
+                            <span class="avail-time">متاح للعمل الحر والمشاريع طويلة المدى، الرد خلال أقل من 24 ساعة.</span>
+                            <p style="margin-top:1rem">تواصل معنا الان من خلال الفورم او الشات بوت الخاص بنا.
+                            </p>
+
+                        </div>
+                        <button class="action-btn action-btn-primary" style="width:100%;margin-top:1rem"
+                            id="requestServiceBtn2"><i class="fas fa-hand-sparkles"></i> طلب خدمة الآن</button>
+                        <button class="cv-header-btn" id="cvDownloadBtn"><i class="fas fa-download"></i> <a href="cv/CV Abdel Fdil Mohamed.pdf">Download CV</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- الفوتر -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-col">
+                        <h4>ABDEL FDIL MOHAMED</h4>
+                        <p>مرحبا انا عبدالفضيل محمد ادرس BIS شغوف جدا في مجالات متعدده وخبره فيها اول مجال بدات فيه هو
+                            تطوير الويب واجهه اماميه وبعد ذالك مصمم جرافيك وبدا المجال يفتح امامي فحبيت انطلق واوسع في
+                            خبراتي بدات اعمل مونتير وتطورت فيه جدا وبدا شغفي يزداد اكثر وبدات في السوشيال ميديا وبدات في
+                            الاعلانات وكثير من المهارات اللي بدات اتطور بها</p>
+                        <div class="visit-counter" style="margin-top:1rem">
+                            <i class="fas fa-eye"></i>
+                            <span>عدد الزيارات: <strong id="visitCount">0</strong></span>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>روابط سريعة</h4>
+                        <a href="#home"> <i class="fa-notdog fa-solid fa-house"></i> الرئيسية</a>
+                        <a href="#services"><i class="fa-notdog fa-solid fa-suitcase"></i> الخدمات</a>
+                        <a href="#blog"><i class="fa-notdog fa-solid fa-globe"></i> مدونتي</a>
+                        <a href="#about"><i class="fa-notdog-duo fa-solid fa-face-smile"></i> من أنا</a>
+                        <a href="#portfolio"> <i class="fa-notdog fa-solid fa-thumbs-up"></i> معرض الأعمال </a>
+                        <a href="#platform"> <i class="fa-notdog fa-solid fa-trophy"></i> منصة AFM Academic</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>التواصل</h4>
+                        <p class="phono"><i class="fas fa-phone"></i> 01006153136</p>
+                        <p><i class="fas fa-envelope"></i> abdelfdilmohamed@gmail.com</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>منصة AFM Academic</h4>
+                        <p>منصة تعليمية متكاملة تقدم كورسات احترافية في مجالات التقنية والتصميم واللغات. انضم الآن وتعلم
+                            مهارات المستقبل.</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2027 عبد الفضيل محمد - جميع الحقوق محفوظة | <a
+                            href="https://wa.me/201006153136?text=مرحباً، أود الاستفسار عن خدماتك في انشاء المواقع.">Directed
+                            by Abdelfdil Mohamed</a> </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ============================================================ -->
+        <!-- المودالات -->
+        <!-- ============================================================ -->
+
+        <!-- مودال السيرة الذاتية -->
+        <div class="modal-overlay" id="cvModal" style="display:none">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <h3><i class="fas fa-file-pdf"></i> السيرة الذاتية</h3>
+                <div class="cv-preview">
+                    <i class="fas fa-file-alt" style="font-size:3rem;color:var(--accent)"></i>
+                    <p>السيرة الذاتيه لعبد الفضيل محمد</p>
+                    <p style="font-size:0.85rem;margin-top:0.5rem">مطور ويب Front-End | مصمم جرافيك | خبير ذكاء اصطناعي
+                        |مونتير احترافي</p>
+                </div>
+                <button class="cv-header-btn" id="downloadCvBtn" style="width:100%;margin-top:1rem"><i
+                        class="fas fa-download"></i> <a href="cv/CV Abdel Fdil Mohamed.pdf">Download CV</a></button>
+                <button class="action-btn action-btn-ghost"
+                    onclick="document.getElementById('cvModal').style.display='none'"
+                    style="width:100%;margin-top:0.5rem">إغلاق</button>
+            </div>
+        </div>
+
+        <!-- مودال طلب خدمة -->
+        <div class="modal-overlay" id="serviceModal" style="display:none">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <h3><i class="fas fa-concierge-bell"></i> طلب خدمة</h3>
+                <input type="text" placeholder="الاسم الكامل (مطلوب)" id="serviceName" />
+                <input type="tel" placeholder="رقم الواتساب (مطلوب - 11 رقم)" id="servicePhone" />
+                <select id="serviceSelect"></select>
+                <div style="display:flex;gap:1rem;margin-top:1rem">
+                    <button class="action-btn action-btn-primary" id="serviceNextBtn"><i class="fas fa-arrow-right"></i>
+                        التالي</button>
+                    <button class="action-btn action-btn-ghost"
+                        onclick="document.getElementById('serviceModal').style.display='none'"><i
+                            class="fas fa-times"></i> إلغاء</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- مودال الدفع -->
+        <div class="modal-overlay" id="paymentModal" style="display:none">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <h3><i class="fas fa-credit-card"></i> اختيار طريقة الدفع</h3>
+                <div class="payment-options">
+                    <label><input type="radio" name="payment" value="فودافون كاش" checked /> <i
+                            class="fas fa-mobile-alt"></i> فودافون كاش</label>
+                    <label><input type="radio" name="payment" value="فوري" /><i class="fas fa-wallet"></i> فوري</label>
+                    <label><input type="radio" name="payment" value="كاش (يدوي)" /> <i
+                            class="fas fa-money-bill-wave"></i> كاش (يدوي عند الاستلام)</label>
+                </div>
+                <div style="background:var(--accent-glow);padding:0.8rem;border-radius:24px;margin-bottom:1rem">
+                    <p><i class="fas fa-info-circle"></i> سيتم إرسال تفاصيل الدفع عبر واتساب بعد التأكيد.</p>
+                </div>
+                <div style="display:flex;gap:1rem">
+                    <button class="action-btn action-btn-primary" id="paymentConfirmBtn"> <i class="fas fa-check"></i>
+                        تأكيد وإرسال الطلب</button>
+                    <button class="action-btn action-btn-ghost"
+                        onclick="document.getElementById('paymentModal').style.display='none'"> <i
+                            class="fas fa-arrow-left"></i> رجوع</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- مودال التسجيل -->
+        <div class="modal-overlay" id="registerModal" style="display:none">
+            <div class="modal-content register-modal" onclick="event.stopPropagation()">
+                <div class="modal-header">
+                    <h3><i class="fas fa-user-plus"></i> التسجيل في AFM Academic</h3>
+                    <button class="modal-close-btn"
+                        onclick="document.getElementById('registerModal').style.display='none'"><i
+                            class="fas fa-times"></i></button>
+                </div>
+                <div class="register-type-selector">
+                    <button class="type-btn active" data-type="طالب"><i class="fas fa-user-graduate"></i> طالب</button>
+                    <button class="type-btn" data-type="معلم"><i class="fas fa-chalkboard-teacher"></i> معلم</button>
+                </div>
+                <div class="register-form">
+                    <div class="register-field" id="regNameField">
+                        <label><i class="fas fa-user"></i> الاسم الكامل <span class="required">*</span></label>
+                        <input type="text" placeholder="أدخل اسمك الكامل" id="regName" />
+                        <div class="field-error" id="regNameError"></div>
+                    </div>
+                    <div class="register-field" id="regCountryField">
+                        <label><i class="fas fa-globe-africa"></i> الدولة <span class="required">*</span></label>
+                        <select id="regCountry"></select>
+                        <div class="field-error" id="regCountryError"></div>
+                    </div>
+                    <div class="register-field" id="regPhoneField">
+                        <label><i class="fas fa-phone"></i> رقم الهاتف <span class="required">*</span></label>
+                        <div class="phone-group">
+                            <select id="regPhoneCountry"></select>
+                            <input type="tel" placeholder="مثال: 12345678" id="regPhoneLocal" />
+                        </div>
+                        <div class="field-error" id="regPhoneError"></div>
+                    </div>
+                    <div class="register-field" id="regFieldContainer">
+                        <label><i class="fas fa-book"></i> المجال المطلوب <span class="required">*</span></label>
+                        <select id="regField">
+                            <option value=""><i class="fas fa-question-circle"></i> اختر المجال </option>
+                            <option value="تطوير ويب واجهات أمامية"><i class="fas fa-laptop-code"></i> تطوير ويب واجهات أمامية
+                                (Front-End)</option>
+                            <option value="تصميم جرافيك"><i class="fas fa-paint-brush"></i> تصميم جرافيك</option>
+                            <option value="مونتاج فيديو"><i class="fas fa-film"></i> مونتاج فيديو</option>
+                            <option value="الذكاء الاصطناعي"><i class="fas fa-robot"></i> الذكاء الاصطناعي</option>
+                            <option value="اللغة الإنجليزية"><i class="fas fa-globe"></i> اللغة الإنجليزية</option>
+                            <option value="إدارة السوشيال ميديا"><i class="fas fa-users"></i> إدارة السوشيال ميديا
+                            </option>
+                            <option value="تسويق رقمي"><i class="fas fa-ad"></i> تسويق رقمي</option>
+                            <option value="خيار التقديم علي استشارة"> <i class="fas fa-info-circle"></i> خيار التقديم
+                                علي استشارة</option>
+                        </select>
+                        <div class="field-error" id="regFieldError"></div>
+                    </div>
+                    <div class="register-field" id="regProfessionField" style="display:none">
+                        <label><i class="fas fa-briefcase"></i> المهنة <span class="required">*</span></label>
+                        <input type="text" placeholder="مثال: مطور ويب" id="regProfession" />
+                        <div class="field-error" id="regProfessionError"></div>
+                    </div>
+                    <div class="register-field" id="regExperienceField" style="display:none">
+                        <label><i class="fas fa-star"></i> الخبرة <span class="required">*</span></label>
+                        <textarea rows="2" placeholder="مثال: 5 سنوات في تدريس اللغة الإنجليزية"
+                            id="regExperience"></textarea>
+                        <div class="field-error" id="regExperienceError"></div>
+                    </div>
+                    <div class="register-field" id="regCvField" style="display:none">
+                        <label><i class="fas fa-file-pdf"></i> السيرة الذاتية <span class="required">*</span></label>
+                        <div style="display:flex;flex-direction:column;gap:0.5rem">
+                            <div
+                                style="display:flex;align-items:center;gap:0.5rem;color:var(--text-secondary);font-size:0.8rem">
+                                <span>ارفق رابط ال CV هنا للمعاينه السريعة</span>
+                            </div>
+                            <input type="text" placeholder="أدخل رابط السيرة الذاتية لازم يكون الرابط اخره .com"
+                                id="regCvLink" />
+                            <div style="font-size:0.75rem;color:var(--text-secondary);margin-top:0.2rem"><i
+                                    class="fas fa-info-circle"></i> يمكنك إما رفع ملف PDF (حد أقصى 5 ميجابايت) أو إدخال
+                                رابط.</div>
+                        </div>
+                        <div class="field-error" id="regCvError"></div>
+                    </div>
+                    <div class="register-field" id="regPreviousWorkField" style="display:none">
+                        <label><i class="fas fa-building"></i> مكان العمل السابق</label>
+                        <input type="text" placeholder="مثال: شركة XYZ" id="regPreviousWork" />
+                        <div class="field-error" id="regPreviousWorkError"></div>
+                    </div>
+                    <div class="register-actions">
+                        <button class="action-btn action-btn-primary" id="regSubmitBtn"><i
+                                class="fas fa-paper-plane"></i> إرسال
+                            الطلب</button>
+                        <button class="action-btn action-btn-ghost"
+                            onclick="document.getElementById('registerModal').style.display='none'"> <i
+                                class="fas fa-times"></i> إلغاء</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- مودال عرض المشروع -->
+        <div class="modal-overlay" id="projectModal" style="display:none">
+            <div class="modal-content project-modal" onclick="event.stopPropagation()">
+                <button class="modal-close-btn" onclick="closeProjectModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="project-modal-image">
+                    <img id="projectModalImage" src="" alt="صورة المشروع" />
+                </div>
+                <div class="project-modal-content">
+                    <div class="project-modal-tags">
+                        <span id="projectModalCategory"></span>
+                    </div>
+                    <h3 id="projectModalTitle"><i class="fas fa-project-diagram"></i> </h3>
+                    <p id="projectModalDesc"><i class="fas fa-align-justify"></i> </p>
+                    <a href="#" id="projectModalLink" target="_blank" rel="noopener noreferrer"
+                        class="project-modal-link">
+                        <i class="fas fa-external-link-alt"></i> زيارة المشروع
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- شات بوت -->
+        <div class="chatbot-container" id="chatbot">
+            <button class="chatbot-toggle" id="chatbotToggle"><i class="fas fa-comment-dots"></i></button>
+            <div class="chatbot-window" id="chatbotWindow" style="display:none">
+                <div class="chatbot-header">
+                    <span><i class="fas fa-robot"></i> مساعد Abdel Fdil Mohamed الذكي</span>
+                    <button class="chatbot-close" id="chatbotClose"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="chatbot-messages" id="chatMessages">
+                    <div class="chat-message bot">
+                        <div class="chat-bubble">👋 مرحباً! أنا مساعدك الذكي. سأساعدك في التواصل معنا.</div>
+                    </div>
+                </div>
+                <div class="chatbot-input">
+                    <input type="text" placeholder="اكتب رسالتك..." id="chatInput" />
+                    <button id="chatSendBtn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- Toast -->
+        <div class="toast-msg" id="toast" style="display:none"></div>
+    </div>
+
+    <!-- ===== Supabase SDK ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- // تهيئة Supabase -->
+
+    <script>
+        (function initSupabase() {
+            const SUPABASE_URL = 'https://chvmzqouxxhwotkhnxph.supabase.co';
+            const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNodm16cW91eHhod290a2hueHBoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg3ODk4MDAsImV4cCI6MjEwNDM2NTgwMH0.QXsPl-O1iRV8ryNz9jp-EeVTVncrBPBffCTAqoV36Vs';
+
+            const client = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            window.supabaseClient = client;
+
+            console.log('✅ Supabase initialized successfully');
+        })();
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
